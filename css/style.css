@@ -1,0 +1,83 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: #926239;
+line-height: 1.7;
+width:70;
+}
+
+#coast{
+background-image: url('../img/coast.jpg');
+background-size:cover;
+background-position:center;
+height:100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0 20px;
+
+}
+
+#coast .button{
+
+
+font-size:20px;
+text-decoration:none;
+border:rgb(139, 79, 18) 1px solid;
+padding: 10px 20px;
+border-radius: 10px;
+margin-top: 20px;
+
+}
+
+
+
+#coast h1{
+    font-size:40px;
+}
+#coast h2{
+    color:rgb(139, 79, 18);
+    font-size: 40px;
+}
+#section-a strong{
+        color: black;
+}
+
+#coast .button:hover{
+
+background: white;
+color:red;
+}
+#section-a{
+
+background-color:rgb(139, 79, 18);
+
+color:white; 
+}
+/*#aside{
+color: black;
+
+
+background-color:blueviolet;
+width: 300px;
+
+float:right;
+}
+#section-a{
+width: 1000px;
+float: right;
+margin: 0px;
+}
+#section-s{
+width: 1000px;
+float: right;
+margin: 0px;
+}*/
