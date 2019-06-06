@@ -1,6 +1,6 @@
 *{
-margin: 0;
-padding: 0;
+margin: 0px;
+padding: 0px;
 }
 
 
@@ -9,14 +9,17 @@ margin:0;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 color: #926239;
+
 line-height: 1.7;
 width:70;
+background-color: aqua
 }
 
 #coast{
-background-image: url('../img/coast.jpg');
+background-image: url('/img/coast.jpg');
 background-size:cover;
 background-position:center;
+text-shadow: 2px 2px blue;
 height:100vh;
 display: flex;
 flex-direction: column;
@@ -25,7 +28,10 @@ align-items: center;
 padding: 0 20px;
 
 }
-
+#coast4{
+    height: 65vh;
+    width: 100%;
+}
 #coast .button{
 
 
@@ -37,7 +43,13 @@ border-radius: 10px;
 margin-top: 20px;
 
 }
-
+img{
+    width: 250px;
+    height: 200px;
+    float:left;
+    margin-right: 10px;
+    
+}
 
 
 #coast h1{
@@ -47,8 +59,19 @@ margin-top: 20px;
     color:rgb(139, 79, 18);
     font-size: 40px;
 }
+#section-a{
+    width: 50%;
+    float: left;
+    
+}
+#section-s{
+    width: 46%;
+    float: left;
+    color: black;
+    
+}
 #section-a strong{
-        color: black;
+        color:blue;
 }
 
 #coast .button:hover{
@@ -56,28 +79,15 @@ margin-top: 20px;
 background: white;
 color:red;
 }
-#section-a{
-
-background-color:rgb(139, 79, 18);
-
-color:white; 
+#section-a, #section-s {
+padding: 12px;
+ 
 }
-/*#aside{
-color: black;
-
-
-background-color:blueviolet;
-width: 300px;
-
-float:right;
+#section-a {
+    background-color:rgb(139, 79, 18);
+    color:white;
 }
-#section-a{
-width: 1000px;
-float: right;
-margin: 0px;
+
+#gold {
+font-size: 20pt;
 }
-#section-s{
-width: 1000px;
-float: right;
-margin: 0px;
-}*/
